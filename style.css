@@ -339,3 +339,10 @@ body {
 .footer .desc {
   color: #888;
 }
+
+a {
+  color: black;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
