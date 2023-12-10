@@ -1,15 +1,19 @@
 body {
-  background-color: #e1e1e1;
+  background-color: #e1dbdb;
 }
 
-.hr {
-  background: linear-gradient(-180deg, #f53d2d, #f63);
-  height: 130px;
-  width: 100%;
-  position: fixed;
-  color: #ffffff;
-  padding-top: 10px;
-  z-index: 999;
+.wrap-icon-s {
+  position: absolute;
+  background: linear-gradient(-180deg,#e62b19, #f77245);
+  border-radius: 3px;
+  width: 60px;
+  height: 87%;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -30,32 +34,27 @@ body {
   height: 17px;
 }
 
-.hr1 {
-  width: 2px;
-  height: 15px;
-  background-color: #ffffff;
+.hr {
+  background: linear-gradient(-180deg, #e62b19, #f77245);
+  height: 130px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  padding-top: 10px;
+  z-index: 999;
+}
+
+.shopee-logo{
+  width: auto;
+  height: 62px;
 }
 
 .wrap-search {
   position: relative;
   width: 100%;
   height: 40px;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 6px;
-}
-
-.wrap-icon-s {
-  position: absolute;
-  background: linear-gradient(-180deg, #f53d2d, #f63);
-  border-radius: 3px;
-  width: 60px;
-  height: 87%;
-  right: 4px;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .form-control {
@@ -73,15 +72,10 @@ body {
   border-radius: 6px;
 }
 
-.shopping-cart{
-  width: 30px;
-  height: 30px;
-  margin-left: 53px;
-}
-
-.shopee-logo{
-  width: auto;
-  height: 62px;
+.hr1 {
+  width: 2px;
+  height: 15px;
+  background-color: white;
 }
 
 .text-brand {
@@ -99,7 +93,12 @@ body {
   width: 70%;
 }
 
-/* carousel */
+.shopping-cart{
+  width: 30px;
+  height: 30px;
+  margin-left: 53px;
+}
+
 .content {
   position: relative;
   top: 130px;
@@ -108,11 +107,6 @@ body {
 
 .content .shape1 {
   position: absolute;
-  left: 0;
-  top: 0;
-  transform: rotate(-90deg);
-  top: 17px;
-  left: 20px;
 }
 .content .shape2 {
   position: absolute;
@@ -146,8 +140,6 @@ body {
   height: 10px;
 }
 
-/* jenis sale */
-
 .jenis-sale {
   padding: 20px;
   background-color: #ffffff;
@@ -171,7 +163,6 @@ body {
   height: 100%;
 }
 
-/* category */
 .category {
   display: flex;
   flex-direction: column;
@@ -197,25 +188,25 @@ body {
 .card-category .wrap-img {
   width: 50px;
   height: 50px;
-  background-color: #dbdbdb;
+  background-color: #dad7d7;
   border-radius: 20px;
   border: none;
 }
 
 /* sale */
 .sale {
-  background-color: #ffffff;
+  background-color: white;
   /* padding: 13px; */
   flex-direction: column;
   padding-bottom: 20px;
 }
 .sale h5 {
-  color: #f53d2d;
+  color: #e24032;
 }
 
 .sale span {
   background-color: black;
-  color: #fff;
+  color: white;
   font-weight: bold;
   padding: 0 5px;
 }
@@ -246,7 +237,7 @@ body {
   align-items: center;
 }
 .text {
-  /* display: flex; */
+  display: flex;
 }
 .text span {
   background-color: #ffffff;
@@ -303,7 +294,6 @@ body {
   position: relative;
 }
 
-/* pencarian populer */
 .card-pencarian {
   width: 20%;
   border-top: 1px solid #d0d0d0;
@@ -315,17 +305,15 @@ body {
   font-size: 14px;
 }
 
-/* rekomendasi */
 .nav-link.active {
-  border-bottom: 3px solid #f53d2d !important;
+  border-bottom: 3px solid #f53d2d;
 }
 
-/* footer */
 .footer {
   border-top: 3px solid #f53d2d;
   top: 180px;
   position: relative;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .footer {
@@ -333,11 +321,11 @@ body {
 }
 
 .footer .title {
-  color: #666;
+  color: #6a6868;
 }
 
 .footer .desc {
-  color: #888;
+  color: #878787;
 }
 
 a {
